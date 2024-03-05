@@ -1,0 +1,1013 @@
+@!@!@STARTMSG 2262:0 @!@!@
+TLC2 Version 2.16 of 31 December 2020 (rev: cdddf55)
+@!@!@ENDMSG 2262 @!@!@
+@!@!@STARTMSG 2187:0 @!@!@
+Running breadth-first search Model-Checking with fp 23 and seed -3061928073911197884 with 4 workers on 8 cores with 608MB heap and 1365MB offheap memory [pid: 44382] (Mac OS X 10.16 x86_64, AdoptOpenJDK 14.0.1 x86_64, OffHeapDiskFPSet, DiskStateQueue).
+@!@!@ENDMSG 2187 @!@!@
+@!@!@STARTMSG 2220:0 @!@!@
+Starting SANY...
+@!@!@ENDMSG 2220 @!@!@
+Parsing file /Users/amithabh_a/dev/tla/specs/trafficLight.toolbox/Model_1/MC.tla
+Parsing file /Users/amithabh_a/dev/tla/specs/trafficLight.toolbox/Model_1/trafficLight.tla
+Parsing file /Applications/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202012311918/tla2sany/StandardModules/TLC.tla
+Parsing file /Applications/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202012311918/tla2sany/StandardModules/Integers.tla
+Parsing file /Applications/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202012311918/tla2sany/StandardModules/Naturals.tla
+Parsing file /Applications/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202012311918/tla2sany/StandardModules/Sequences.tla
+Parsing file /Applications/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202012311918/tla2sany/StandardModules/FiniteSets.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module trafficLight
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module MC
+@!@!@STARTMSG 2219:0 @!@!@
+SANY finished.
+@!@!@ENDMSG 2219 @!@!@
+@!@!@STARTMSG 2185:0 @!@!@
+Starting... (2024-02-13 17:41:28)
+@!@!@ENDMSG 2185 @!@!@
+@!@!@STARTMSG 2189:0 @!@!@
+Computing initial states...
+@!@!@ENDMSG 2189 @!@!@
+@!@!@STARTMSG 2190:0 @!@!@
+Finished computing initial states: 1 distinct state generated at 2024-02-13 17:41:30.
+@!@!@ENDMSG 2190 @!@!@
+@!@!@STARTMSG 2114:1 @!@!@
+Deadlock reached.
+@!@!@ENDMSG 2114 @!@!@
+@!@!@STARTMSG 2121:1 @!@!@
+The behavior up to this point is:
+@!@!@ENDMSG 2121 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+1: <Initial predicate>
+/\ counter = 20
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 0
+/\ pc1 = 0
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+2: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 20
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 1
+/\ pc1 = 1
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+3: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 20
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 4
+/\ pc1 = 4
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+4: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 19
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 5
+/\ pc1 = 5
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+5: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 19
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 0
+/\ pc1 = 0
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+6: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 19
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 1
+/\ pc1 = 1
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+7: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 19
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 4
+/\ pc1 = 4
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+8: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 18
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 5
+/\ pc1 = 5
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+9: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 18
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 0
+/\ pc1 = 0
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+10: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 18
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 1
+/\ pc1 = 1
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+11: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 18
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 4
+/\ pc1 = 4
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+12: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 17
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 5
+/\ pc1 = 5
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+13: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 17
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 0
+/\ pc1 = 0
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+14: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 17
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 1
+/\ pc1 = 1
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+15: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 17
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 4
+/\ pc1 = 4
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+16: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 16
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 5
+/\ pc1 = 5
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+17: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 16
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 0
+/\ pc1 = 0
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+18: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 16
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 1
+/\ pc1 = 1
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+19: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 16
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 4
+/\ pc1 = 4
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+20: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 15
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 5
+/\ pc1 = 5
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+21: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 15
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 0
+/\ pc1 = 0
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+22: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 15
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 1
+/\ pc1 = 1
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+23: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 15
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 4
+/\ pc1 = 4
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+24: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 14
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 5
+/\ pc1 = 5
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+25: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 14
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 0
+/\ pc1 = 0
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+26: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 14
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 1
+/\ pc1 = 1
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+27: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 14
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 4
+/\ pc1 = 4
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+28: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 13
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 5
+/\ pc1 = 5
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+29: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 13
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 0
+/\ pc1 = 0
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+30: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 13
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 1
+/\ pc1 = 1
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+31: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 13
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 4
+/\ pc1 = 4
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+32: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 12
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 5
+/\ pc1 = 5
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+33: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 12
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 0
+/\ pc1 = 0
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+34: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 12
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 1
+/\ pc1 = 1
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+35: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 12
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 4
+/\ pc1 = 4
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+36: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 11
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 5
+/\ pc1 = 5
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+37: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 11
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 0
+/\ pc1 = 0
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+38: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 11
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 1
+/\ pc1 = 1
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+39: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 11
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 4
+/\ pc1 = 4
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+40: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 10
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 5
+/\ pc1 = 5
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+41: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 10
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 0
+/\ pc1 = 0
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+42: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 10
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 1
+/\ pc1 = 1
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+43: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 10
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 4
+/\ pc1 = 4
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+44: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 9
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 5
+/\ pc1 = 5
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+45: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 9
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 0
+/\ pc1 = 0
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+46: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 9
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 1
+/\ pc1 = 1
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+47: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 9
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 4
+/\ pc1 = 4
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+48: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 8
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 5
+/\ pc1 = 5
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+49: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 8
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 0
+/\ pc1 = 0
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+50: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 8
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 1
+/\ pc1 = 1
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+51: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 8
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 4
+/\ pc1 = 4
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+52: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 7
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 5
+/\ pc1 = 5
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+53: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 7
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 0
+/\ pc1 = 0
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+54: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 7
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 1
+/\ pc1 = 1
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+55: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 7
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 4
+/\ pc1 = 4
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+56: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 6
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 5
+/\ pc1 = 5
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+57: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 6
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 0
+/\ pc1 = 0
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+58: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 6
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 1
+/\ pc1 = 1
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+59: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 6
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 4
+/\ pc1 = 4
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+60: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 5
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 5
+/\ pc1 = 5
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+61: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 5
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 0
+/\ pc1 = 0
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+62: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 5
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 1
+/\ pc1 = 1
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+63: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 5
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 4
+/\ pc1 = 4
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+64: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 4
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 5
+/\ pc1 = 5
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+65: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 4
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 0
+/\ pc1 = 0
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+66: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 4
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 1
+/\ pc1 = 1
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+67: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 4
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 4
+/\ pc1 = 4
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+68: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 3
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 5
+/\ pc1 = 5
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+69: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 3
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 0
+/\ pc1 = 0
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+70: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 3
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 1
+/\ pc1 = 1
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+71: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 3
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 4
+/\ pc1 = 4
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+72: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 2
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 5
+/\ pc1 = 5
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+73: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 2
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 0
+/\ pc1 = 0
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+74: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 2
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 1
+/\ pc1 = 1
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+75: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 2
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 4
+/\ pc1 = 4
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+76: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 1
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 5
+/\ pc1 = 5
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+77: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 1
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 0
+/\ pc1 = 0
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+78: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 1
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 1
+/\ pc1 = 1
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+79: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 1
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 4
+/\ pc1 = 4
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+80: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 0
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 5
+/\ pc1 = 5
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+81: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 0
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 0
+/\ pc1 = 0
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+82: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 0
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 1
+/\ pc1 = 1
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+83: <Next line 112, col 10 to line 112, col 23 of module trafficLight>
+/\ counter = 0
+/\ light1 = 1
+/\ light2 = 0
+/\ pc0 = 2
+/\ pc1 = 2
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2201:0 @!@!@
+The coverage statistics at 2024-02-13 17:41:30
+@!@!@ENDMSG 2201 @!@!@
+@!@!@STARTMSG 2773:0 @!@!@
+<Init line 11, col 1 to line 11, col 4 of module trafficLight>: 2:2
+@!@!@ENDMSG 2773 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 11, col 9 to line 15, col 18 of module trafficLight: 2
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Next line 112, col 1 to line 112, col 4 of module trafficLight>: 82:164
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 19, col 11 to line 19, col 17 of module trafficLight: 207
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 19, col 11 to line 19, col 13 of module trafficLight: 165
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 20, col 11 to line 20, col 18 of module trafficLight: 42
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 21, col 11 to line 21, col 49 of module trafficLight: 42
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 23, col 11 to line 23, col 17 of module trafficLight: 167
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 23, col 11 to line 23, col 13 of module trafficLight: 165
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 24, col 11 to line 24, col 18 of module trafficLight: 2
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 25, col 11 to line 25, col 21 of module trafficLight: 44
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 25, col 11 to line 25, col 17 of module trafficLight: 42
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 26, col 11 to line 26, col 49 of module trafficLight: 2
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 28, col 11 to line 28, col 17 of module trafficLight: 205
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 28, col 11 to line 28, col 13 of module trafficLight: 165
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 29, col 11 to line 29, col 18 of module trafficLight: 40
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 30, col 11 to line 30, col 22 of module trafficLight: 82
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 30, col 11 to line 30, col 17 of module trafficLight: 42
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 31, col 11 to line 31, col 49 of module trafficLight: 40
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 33, col 11 to line 33, col 17 of module trafficLight: 165
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 34, col 11 to line 34, col 18 of module trafficLight: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 35, col 11 to line 35, col 28 of module trafficLight: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 35, col 21 to line 35, col 28 of module trafficLight: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 36, col 11 to line 36, col 41 of module trafficLight: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 38, col 11 to line 38, col 17 of module trafficLight: 165
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 39, col 11 to line 39, col 18 of module trafficLight: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 41, col 11 to line 41, col 23 of module trafficLight: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 42, col 11 to line 42, col 40 of module trafficLight: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 44, col 11 to line 44, col 17 of module trafficLight: 205
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 44, col 11 to line 44, col 13 of module trafficLight: 165
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 45, col 11 to line 45, col 18 of module trafficLight: 40
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 46, col 11 to line 46, col 32 of module trafficLight: 40
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 47, col 11 to line 47, col 40 of module trafficLight: 40
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 49, col 11 to line 49, col 17 of module trafficLight: 205
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 49, col 11 to line 49, col 13 of module trafficLight: 165
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 50, col 11 to line 50, col 18 of module trafficLight: 40
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 51, col 11 to line 51, col 49 of module trafficLight: 40
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 65, col 11 to line 65, col 17 of module trafficLight: 207
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 65, col 11 to line 65, col 13 of module trafficLight: 165
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 66, col 11 to line 66, col 18 of module trafficLight: 42
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 67, col 11 to line 67, col 49 of module trafficLight: 84
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 69, col 11 to line 69, col 17 of module trafficLight: 167
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 69, col 11 to line 69, col 13 of module trafficLight: 165
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 70, col 11 to line 70, col 18 of module trafficLight: 2
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 71, col 11 to line 71, col 21 of module trafficLight: 42
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 72, col 11 to line 72, col 49 of module trafficLight: 4
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 74, col 11 to line 74, col 17 of module trafficLight: 205
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 74, col 11 to line 74, col 13 of module trafficLight: 165
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 75, col 11 to line 75, col 18 of module trafficLight: 40
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 76, col 11 to line 76, col 22 of module trafficLight: 42
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 77, col 11 to line 77, col 49 of module trafficLight: 80
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 79, col 11 to line 79, col 17 of module trafficLight: 165
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 80, col 11 to line 80, col 18 of module trafficLight: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 81, col 11 to line 81, col 28 of module trafficLight: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 82, col 11 to line 82, col 41 of module trafficLight: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 84, col 11 to line 84, col 17 of module trafficLight: 165
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 85, col 11 to line 85, col 18 of module trafficLight: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 87, col 11 to line 87, col 23 of module trafficLight: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 88, col 11 to line 88, col 40 of module trafficLight: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 90, col 11 to line 90, col 17 of module trafficLight: 205
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 90, col 11 to line 90, col 13 of module trafficLight: 165
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 91, col 11 to line 91, col 18 of module trafficLight: 40
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 92, col 11 to line 92, col 32 of module trafficLight: 40
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 93, col 11 to line 93, col 40 of module trafficLight: 80
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 95, col 11 to line 95, col 17 of module trafficLight: 205
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 95, col 11 to line 95, col 13 of module trafficLight: 165
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 96, col 11 to line 96, col 18 of module trafficLight: 40
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 97, col 11 to line 97, col 49 of module trafficLight: 80
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2202:0 @!@!@
+End of statistics.
+@!@!@ENDMSG 2202 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(83) at 2024-02-13 17:41:30: 83 states generated (1,720 s/min), 83 distinct states found (1,720 ds/min), 0 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2199:0 @!@!@
+83 states generated, 83 distinct states found, 0 states left on queue.
+@!@!@ENDMSG 2199 @!@!@
+@!@!@STARTMSG 2194:0 @!@!@
+The depth of the complete state graph search is 83.
+@!@!@ENDMSG 2194 @!@!@
+@!@!@STARTMSG 2268:0 @!@!@
+The average outdegree of the complete state graph is 1 (minimum is 0, the maximum 1 and the 95th percentile is 1).
+@!@!@ENDMSG 2268 @!@!@
+@!@!@STARTMSG 2186:0 @!@!@
+Finished in 2979ms at (2024-02-13 17:41:30)
+@!@!@ENDMSG 2186 @!@!@

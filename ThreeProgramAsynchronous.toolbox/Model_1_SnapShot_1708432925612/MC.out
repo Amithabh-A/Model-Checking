@@ -1,0 +1,476 @@
+@!@!@STARTMSG 2262:0 @!@!@
+TLC2 Version 2.16 of 31 December 2020 (rev: cdddf55)
+@!@!@ENDMSG 2262 @!@!@
+@!@!@STARTMSG 2187:0 @!@!@
+Running breadth-first search Model-Checking with fp 100 and seed 1220948204958060088 with 4 workers on 8 cores with 608MB heap and 1365MB offheap memory [pid: 57713] (Mac OS X 10.16 x86_64, AdoptOpenJDK 14.0.1 x86_64, OffHeapDiskFPSet, DiskStateQueue).
+@!@!@ENDMSG 2187 @!@!@
+@!@!@STARTMSG 2220:0 @!@!@
+Starting SANY...
+@!@!@ENDMSG 2220 @!@!@
+Parsing file /Users/amithabh_a/dev/tla/specs/ThreeProgramAsynchronous.toolbox/Model_1/MC.tla
+Parsing file /Users/amithabh_a/dev/tla/specs/ThreeProgramAsynchronous.toolbox/Model_1/ThreeProgramAsynchronous.tla
+Parsing file /Applications/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202012311918/tla2sany/StandardModules/TLC.tla
+Parsing file /Applications/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202012311918/tla2sany/StandardModules/Integers.tla
+Parsing file /Applications/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202012311918/tla2sany/StandardModules/Naturals.tla
+Parsing file /Applications/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202012311918/tla2sany/StandardModules/Sequences.tla
+Parsing file /Applications/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202012311918/tla2sany/StandardModules/FiniteSets.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module ThreeProgramAsynchronous
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module MC
+@!@!@STARTMSG 2219:0 @!@!@
+SANY finished.
+@!@!@ENDMSG 2219 @!@!@
+@!@!@STARTMSG 2185:0 @!@!@
+Starting... (2024-02-20 18:12:02)
+@!@!@ENDMSG 2185 @!@!@
+@!@!@STARTMSG 2189:0 @!@!@
+Computing initial states...
+@!@!@ENDMSG 2189 @!@!@
+@!@!@STARTMSG 2190:0 @!@!@
+Finished computing initial states: 1 distinct state generated at 2024-02-20 18:12:03.
+@!@!@ENDMSG 2190 @!@!@
+@!@!@STARTMSG 2110:1 @!@!@
+Invariant inv_17084329207333000 is violated.
+@!@!@ENDMSG 2110 @!@!@
+@!@!@STARTMSG 2121:1 @!@!@
+The behavior up to this point is:
+@!@!@ENDMSG 2121 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+1: <Initial predicate>
+/\ k1 = 1
+/\ x = 0
+/\ k2 = 1
+/\ k3 = 1
+/\ r1 = 0
+/\ r2 = 0
+/\ r3 = 0
+/\ pc1 = 0
+/\ pc2 = 0
+/\ pc3 = 0
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+2: <Next line 132, col 13 to line 132, col 61 of module ThreeProgramAsynchronous>
+/\ k1 = 2
+/\ x = 0
+/\ k2 = 1
+/\ k3 = 1
+/\ r1 = 0
+/\ r2 = 0
+/\ r3 = 0
+/\ pc1 = 1
+/\ pc2 = 0
+/\ pc3 = 0
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+3: <Next line 132, col 13 to line 132, col 61 of module ThreeProgramAsynchronous>
+/\ k1 = 2
+/\ x = 0
+/\ k2 = 1
+/\ k3 = 1
+/\ r1 = 0
+/\ r2 = 0
+/\ r3 = 0
+/\ pc1 = 2
+/\ pc2 = 0
+/\ pc3 = 0
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+4: <Next line 132, col 13 to line 132, col 61 of module ThreeProgramAsynchronous>
+/\ k1 = 2
+/\ x = 0
+/\ k2 = 1
+/\ k3 = 1
+/\ r1 = 1
+/\ r2 = 0
+/\ r3 = 0
+/\ pc1 = 3
+/\ pc2 = 0
+/\ pc3 = 0
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+5: <Next line 133, col 13 to line 133, col 61 of module ThreeProgramAsynchronous>
+/\ k1 = 2
+/\ x = 0
+/\ k2 = 2
+/\ k3 = 1
+/\ r1 = 1
+/\ r2 = 0
+/\ r3 = 0
+/\ pc1 = 3
+/\ pc2 = 1
+/\ pc3 = 0
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+6: <Next line 132, col 13 to line 132, col 61 of module ThreeProgramAsynchronous>
+/\ k1 = 2
+/\ x = 1
+/\ k2 = 2
+/\ k3 = 1
+/\ r1 = 1
+/\ r2 = 0
+/\ r3 = 0
+/\ pc1 = 0
+/\ pc2 = 1
+/\ pc3 = 0
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+7: <Next line 133, col 13 to line 133, col 61 of module ThreeProgramAsynchronous>
+/\ k1 = 2
+/\ x = 1
+/\ k2 = 2
+/\ k3 = 1
+/\ r1 = 1
+/\ r2 = 1
+/\ r3 = 0
+/\ pc1 = 0
+/\ pc2 = 2
+/\ pc3 = 0
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+8: <Next line 133, col 13 to line 133, col 61 of module ThreeProgramAsynchronous>
+/\ k1 = 2
+/\ x = 1
+/\ k2 = 2
+/\ k3 = 1
+/\ r1 = 1
+/\ r2 = 2
+/\ r3 = 0
+/\ pc1 = 0
+/\ pc2 = 3
+/\ pc3 = 0
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+9: <Next line 133, col 13 to line 133, col 61 of module ThreeProgramAsynchronous>
+/\ k1 = 2
+/\ x = 2
+/\ k2 = 2
+/\ k3 = 1
+/\ r1 = 1
+/\ r2 = 2
+/\ r3 = 0
+/\ pc1 = 0
+/\ pc2 = 0
+/\ pc3 = 0
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2201:0 @!@!@
+The coverage statistics at 2024-02-20 18:12:03
+@!@!@ENDMSG 2201 @!@!@
+@!@!@STARTMSG 2773:0 @!@!@
+<Init line 128, col 1 to line 128, col 4 of module ThreeProgramAsynchronous>: 2:2
+@!@!@ENDMSG 2773 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 128, col 9 to line 130, col 16 of module ThreeProgramAsynchronous: 2
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Next line 132, col 1 to line 132, col 4 of module ThreeProgramAsynchronous (132 13 132 61)>: 27:88
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 14, col 11 to line 14, col 17 of module ThreeProgramAsynchronous: 118
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 14, col 11 to line 14, col 13 of module ThreeProgramAsynchronous: 88
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 15, col 11 to line 15, col 18 of module ThreeProgramAsynchronous: 30
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 16, col 11 to line 16, col 21 of module ThreeProgramAsynchronous: 60
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 16, col 11 to line 16, col 12 of module ThreeProgramAsynchronous: 30
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 16, col 18 to line 16, col 21 of module ThreeProgramAsynchronous: 30
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 17, col 11 to line 17, col 22 of module ThreeProgramAsynchronous: 30
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 18, col 11 to line 18, col 31 of module ThreeProgramAsynchronous: 30
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 20, col 11 to line 20, col 17 of module ThreeProgramAsynchronous: 110
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 20, col 11 to line 20, col 13 of module ThreeProgramAsynchronous: 88
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 21, col 11 to line 21, col 18 of module ThreeProgramAsynchronous: 22
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 22, col 11 to line 22, col 17 of module ThreeProgramAsynchronous: 22
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 23, col 11 to line 23, col 31 of module ThreeProgramAsynchronous: 22
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 25, col 11 to line 25, col 17 of module ThreeProgramAsynchronous: 106
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 25, col 11 to line 25, col 13 of module ThreeProgramAsynchronous: 88
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 26, col 11 to line 26, col 18 of module ThreeProgramAsynchronous: 18
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 27, col 11 to line 27, col 22 of module ThreeProgramAsynchronous: 18
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 28, col 11 to line 28, col 31 of module ThreeProgramAsynchronous: 18
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 30, col 11 to line 30, col 17 of module ThreeProgramAsynchronous: 104
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 30, col 11 to line 30, col 13 of module ThreeProgramAsynchronous: 88
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 31, col 11 to line 31, col 18 of module ThreeProgramAsynchronous: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 32, col 11 to line 32, col 17 of module ThreeProgramAsynchronous: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 32, col 16 to line 32, col 17 of module ThreeProgramAsynchronous: 18
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 33, col 11 to line 33, col 32 of module ThreeProgramAsynchronous: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 35, col 11 to line 35, col 17 of module ThreeProgramAsynchronous: 86
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 36, col 11 to line 36, col 18 of module ThreeProgramAsynchronous: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 37, col 27 to line 37, col 33 of module ThreeProgramAsynchronous: 102
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 37, col 20 to line 37, col 23 of module ThreeProgramAsynchronous: 30
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 38, col 11 to line 38, col 35 of module ThreeProgramAsynchronous: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 132, col 22 to line 132, col 61 of module ThreeProgramAsynchronous: 86
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Next line 132, col 1 to line 132, col 4 of module ThreeProgramAsynchronous (133 13 133 61)>: 37:82
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 54, col 11 to line 54, col 17 of module ThreeProgramAsynchronous: 112
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 54, col 11 to line 54, col 13 of module ThreeProgramAsynchronous: 82
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 55, col 11 to line 55, col 18 of module ThreeProgramAsynchronous: 30
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 56, col 11 to line 56, col 21 of module ThreeProgramAsynchronous: 60
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 56, col 11 to line 56, col 12 of module ThreeProgramAsynchronous: 30
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 56, col 18 to line 56, col 21 of module ThreeProgramAsynchronous: 30
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 57, col 11 to line 57, col 22 of module ThreeProgramAsynchronous: 30
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 58, col 11 to line 58, col 31 of module ThreeProgramAsynchronous: 30
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 60, col 11 to line 60, col 17 of module ThreeProgramAsynchronous: 105
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 60, col 11 to line 60, col 13 of module ThreeProgramAsynchronous: 82
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 61, col 11 to line 61, col 18 of module ThreeProgramAsynchronous: 23
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 62, col 11 to line 62, col 17 of module ThreeProgramAsynchronous: 23
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 63, col 11 to line 63, col 31 of module ThreeProgramAsynchronous: 23
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 65, col 11 to line 65, col 17 of module ThreeProgramAsynchronous: 100
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 65, col 11 to line 65, col 13 of module ThreeProgramAsynchronous: 82
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 66, col 11 to line 66, col 18 of module ThreeProgramAsynchronous: 18
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 67, col 11 to line 67, col 22 of module ThreeProgramAsynchronous: 18
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 68, col 11 to line 68, col 31 of module ThreeProgramAsynchronous: 18
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 70, col 11 to line 70, col 17 of module ThreeProgramAsynchronous: 92
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 70, col 11 to line 70, col 13 of module ThreeProgramAsynchronous: 82
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 71, col 11 to line 71, col 18 of module ThreeProgramAsynchronous: 10
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 72, col 11 to line 72, col 17 of module ThreeProgramAsynchronous: 10
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 72, col 16 to line 72, col 17 of module ThreeProgramAsynchronous: 11
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 73, col 11 to line 73, col 32 of module ThreeProgramAsynchronous: 10
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 75, col 11 to line 75, col 17 of module ThreeProgramAsynchronous: 81
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 76, col 11 to line 76, col 18 of module ThreeProgramAsynchronous: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 77, col 27 to line 77, col 33 of module ThreeProgramAsynchronous: 42
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 77, col 20 to line 77, col 23 of module ThreeProgramAsynchronous: 30
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 78, col 11 to line 78, col 35 of module ThreeProgramAsynchronous: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 133, col 22 to line 133, col 61 of module ThreeProgramAsynchronous: 81
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Next line 132, col 1 to line 132, col 4 of module ThreeProgramAsynchronous (134 13 134 61)>: 67:77
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 94, col 11 to line 94, col 17 of module ThreeProgramAsynchronous: 107
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 94, col 11 to line 94, col 13 of module ThreeProgramAsynchronous: 77
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 95, col 11 to line 95, col 18 of module ThreeProgramAsynchronous: 30
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 96, col 11 to line 96, col 21 of module ThreeProgramAsynchronous: 60
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 96, col 11 to line 96, col 12 of module ThreeProgramAsynchronous: 30
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 96, col 18 to line 96, col 21 of module ThreeProgramAsynchronous: 30
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 97, col 11 to line 97, col 22 of module ThreeProgramAsynchronous: 30
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 98, col 11 to line 98, col 31 of module ThreeProgramAsynchronous: 30
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 100, col 11 to line 100, col 17 of module ThreeProgramAsynchronous: 100
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 100, col 11 to line 100, col 13 of module ThreeProgramAsynchronous: 77
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 101, col 11 to line 101, col 18 of module ThreeProgramAsynchronous: 23
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 102, col 11 to line 102, col 17 of module ThreeProgramAsynchronous: 23
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 103, col 11 to line 103, col 31 of module ThreeProgramAsynchronous: 23
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 105, col 11 to line 105, col 17 of module ThreeProgramAsynchronous: 93
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 105, col 11 to line 105, col 13 of module ThreeProgramAsynchronous: 77
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 106, col 11 to line 106, col 18 of module ThreeProgramAsynchronous: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 107, col 11 to line 107, col 22 of module ThreeProgramAsynchronous: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 108, col 11 to line 108, col 31 of module ThreeProgramAsynchronous: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 110, col 11 to line 110, col 17 of module ThreeProgramAsynchronous: 84
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 110, col 11 to line 110, col 13 of module ThreeProgramAsynchronous: 77
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 111, col 11 to line 111, col 18 of module ThreeProgramAsynchronous: 7
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 112, col 11 to line 112, col 17 of module ThreeProgramAsynchronous: 7
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 112, col 16 to line 112, col 17 of module ThreeProgramAsynchronous: 8
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 113, col 11 to line 113, col 32 of module ThreeProgramAsynchronous: 7
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 115, col 11 to line 115, col 17 of module ThreeProgramAsynchronous: 76
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 116, col 11 to line 116, col 18 of module ThreeProgramAsynchronous: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 117, col 11 to line 117, col 33 of module ThreeProgramAsynchronous: 30
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 118, col 11 to line 118, col 35 of module ThreeProgramAsynchronous: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 134, col 22 to line 134, col 61 of module ThreeProgramAsynchronous: 76
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2774:0 @!@!@
+<inv_17084329207333000 line 5, col 1 to line 5, col 21 of module MC>
+@!@!@ENDMSG 2774 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 6, col 1 to line 6, col 6 of module MC: 132
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2202:0 @!@!@
+End of statistics.
+@!@!@ENDMSG 2202 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(10) at 2024-02-20 18:12:03: 236 states generated (4,925 s/min), 132 distinct states found (2,754 ds/min), 48 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2199:0 @!@!@
+236 states generated, 132 distinct states found, 48 states left on queue.
+@!@!@ENDMSG 2199 @!@!@
+@!@!@STARTMSG 2194:0 @!@!@
+The depth of the complete state graph search is 10.
+@!@!@ENDMSG 2194 @!@!@
+@!@!@STARTMSG 2268:0 @!@!@
+The average outdegree of the complete state graph is 2 (minimum is 0, the maximum 3 and the 95th percentile is 3).
+@!@!@ENDMSG 2268 @!@!@
+@!@!@STARTMSG 2186:0 @!@!@
+Finished in 2942ms at (2024-02-20 18:12:03)
+@!@!@ENDMSG 2186 @!@!@
