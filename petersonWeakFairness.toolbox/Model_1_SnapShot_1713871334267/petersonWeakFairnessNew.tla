@@ -1,4 +1,4 @@
------------------------------- MODULE peterson ------------------------------
+------------------------------ MODULE petersonWeakFairnessNew ------------------------------
 EXTENDS Integers
 
 VARIABLES pc0, pc1, turn, intr0, intr1
@@ -37,7 +37,7 @@ l23 == /\ pc0 = 2
 
 l34 == /\ pc0 = 3
        /\ pc0' = 4
-       /\ turn' = 1
+       /\ turn' = 0
        /\ intr0' = intr0
        /\ intr1' = intr1
        
@@ -105,7 +105,7 @@ m23 == /\ pc1 = 2
 
 m34 == /\ pc1 = 3
        /\ pc1' = 4
-       /\ turn' = 0
+       /\ turn' = 1
        /\ intr1' = intr1
        /\ intr0' = intr0
       
@@ -172,14 +172,41 @@ ro1 == \/ m01
        \/ m70
        \/ SLOGQ
        
-     
+\* donot add L12 because it can stuck in non critical section forever. 
+WEAK_FAIRNESS_pc0 == /\ WF_pc0(l01)
+                    /\ WF_pc0(l23)
+                    /\ WF_pc0(l34)
+                    /\ WF_pc0(l56)
+                    /\ WF_pc0(l67)
+                    /\ WF_pc0(l70)
+                    
+WEAK_FAIRNESS_pc1 == /\ WF_pc1(m01)
+                    /\ WF_pc1(m23)
+                    /\ WF_pc1(m34)
+                    /\ WF_pc1(m56)
+                    /\ WF_pc1(m67)
+                    /\ WF_pc0(l70)
+                   
+vars == << pc0, pc1, intr0, intr1, turn >>                   
 
 Next == \/ (ro0 /\ pc1' = pc1)
         \/ (ro1 /\ pc0' = pc0)
+        
+FAIRNESS_CONDITION == /\ Init
+                      /\ [][Next]_vars
+                      /\ WEAK_FAIRNESS_pc0
+                      /\ WEAK_FAIRNESS_pc1
+                      
+                      
+\* check whether for all runs sarisfy starvation freeness. 
+NO_STARVATION_0 == (pc0 = 4 => pc0 = 5)
+NO_STARVATION_1 == (pc1 = 4 => pc1 = 5)
                     
+
 
 
 =============================================================================
 \* Modification History
-\* Last modified Tue Feb 06 19:26:47 IST 2024 by amithabh_a
+\* Last modified Tue Apr 23 16:51:47 IST 2024 by amithabh_a
 \* Created Mon Feb 05 13:48:01 IST 2024 by amithabh_a
+

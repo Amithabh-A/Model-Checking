@@ -1,0 +1,568 @@
+@!@!@STARTMSG 2262:0 @!@!@
+TLC2 Version 2.16 of 31 December 2020 (rev: cdddf55)
+@!@!@ENDMSG 2262 @!@!@
+@!@!@STARTMSG 2187:0 @!@!@
+Running breadth-first search Model-Checking with fp 109 and seed 6752618118633795911 with 4 workers on 8 cores with 608MB heap and 1365MB offheap memory [pid: 78753] (Mac OS X 10.16 x86_64, AdoptOpenJDK 14.0.1 x86_64, OffHeapDiskFPSet, DiskStateQueue).
+@!@!@ENDMSG 2187 @!@!@
+@!@!@STARTMSG 2220:0 @!@!@
+Starting SANY...
+@!@!@ENDMSG 2220 @!@!@
+Parsing file /Users/amithabh_a/dev/ModelCheckingLab_DO_NOT_DISTURB/Model-Checking/petersonWeakFairness.toolbox/Model_1/MC.tla
+Parsing file /Users/amithabh_a/dev/ModelCheckingLab_DO_NOT_DISTURB/Model-Checking/petersonWeakFairness.toolbox/Model_1/petersonWeakFairnessNew.tla
+Parsing file /Applications/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202012311918/tla2sany/StandardModules/TLC.tla
+Parsing file /Applications/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202012311918/tla2sany/StandardModules/Integers.tla
+Parsing file /Applications/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202012311918/tla2sany/StandardModules/Naturals.tla
+Parsing file /Applications/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202012311918/tla2sany/StandardModules/Sequences.tla
+Parsing file /Applications/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202012311918/tla2sany/StandardModules/FiniteSets.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module petersonWeakFairnessNew
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module MC
+@!@!@STARTMSG 2219:0 @!@!@
+SANY finished.
+@!@!@ENDMSG 2219 @!@!@
+@!@!@STARTMSG 2185:0 @!@!@
+Starting... (2024-04-23 17:09:09)
+@!@!@ENDMSG 2185 @!@!@
+@!@!@STARTMSG 2212:0 @!@!@
+Implied-temporal checking--satisfiability problem has 2 branches.
+@!@!@ENDMSG 2212 @!@!@
+@!@!@STARTMSG 2189:0 @!@!@
+Computing initial states...
+@!@!@ENDMSG 2189 @!@!@
+@!@!@STARTMSG 2190:0 @!@!@
+Finished computing initial states: 1 distinct state generated at 2024-04-23 17:09:10.
+@!@!@ENDMSG 2190 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(19) at 2024-04-23 17:09:10: 509 states generated, 128 distinct states found, 0 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2192:0 @!@!@
+Checking 2 branches of temporal properties for the complete state space with 256 total distinct states at (2024-04-23 17:09:10)
+@!@!@ENDMSG 2192 @!@!@
+@!@!@STARTMSG 2116:1 @!@!@
+Temporal properties were violated.
+
+@!@!@ENDMSG 2116 @!@!@
+@!@!@STARTMSG 2264:1 @!@!@
+The following behavior constitutes a counter-example:
+
+@!@!@ENDMSG 2264 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+1: <Initial predicate>
+/\ intr0 = 0
+/\ intr1 = 0
+/\ turn = 0
+/\ pc0 = 0
+/\ pc1 = 0
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+2: <Next line 196, col 13 to line 196, col 29 of module petersonWeakFairnessNew>
+/\ intr0 = 0
+/\ intr1 = 0
+/\ turn = 0
+/\ pc0 = 0
+/\ pc1 = 1
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+3: <Next line 196, col 13 to line 196, col 29 of module petersonWeakFairnessNew>
+/\ intr0 = 0
+/\ intr1 = 0
+/\ turn = 0
+/\ pc0 = 0
+/\ pc1 = 2
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+4: <Next line 195, col 13 to line 195, col 29 of module petersonWeakFairnessNew>
+/\ intr0 = 0
+/\ intr1 = 0
+/\ turn = 0
+/\ pc0 = 1
+/\ pc1 = 2
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+5: <Next line 195, col 13 to line 195, col 29 of module petersonWeakFairnessNew>
+/\ intr0 = 0
+/\ intr1 = 0
+/\ turn = 0
+/\ pc0 = 2
+/\ pc1 = 2
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+6: <Next line 196, col 13 to line 196, col 29 of module petersonWeakFairnessNew>
+/\ intr0 = 0
+/\ intr1 = 1
+/\ turn = 0
+/\ pc0 = 2
+/\ pc1 = 3
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+7: <Next line 195, col 13 to line 195, col 29 of module petersonWeakFairnessNew>
+/\ intr0 = 1
+/\ intr1 = 1
+/\ turn = 0
+/\ pc0 = 3
+/\ pc1 = 3
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+8: <Next line 196, col 13 to line 196, col 29 of module petersonWeakFairnessNew>
+/\ intr0 = 1
+/\ intr1 = 1
+/\ turn = 1
+/\ pc0 = 3
+/\ pc1 = 4
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+9: <Next line 195, col 13 to line 195, col 29 of module petersonWeakFairnessNew>
+/\ intr0 = 1
+/\ intr1 = 1
+/\ turn = 0
+/\ pc0 = 4
+/\ pc1 = 4
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2218:4 @!@!@
+10: Stuttering
+@!@!@ENDMSG 2218 @!@!@
+@!@!@STARTMSG 2267:0 @!@!@
+Finished checking temporal properties in 00s at 2024-04-23 17:09:10
+@!@!@ENDMSG 2267 @!@!@
+@!@!@STARTMSG 2201:0 @!@!@
+The coverage statistics at 2024-04-23 17:09:10
+@!@!@ENDMSG 2201 @!@!@
+@!@!@STARTMSG 2773:0 @!@!@
+<Init line 7, col 1 to line 7, col 4 of module petersonWeakFairnessNew>: 2:2
+@!@!@ENDMSG 2773 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 7, col 9 to line 11, col 20 of module petersonWeakFairnessNew: 2
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Next line 195, col 1 to line 195, col 4 of module petersonWeakFairnessNew (195 13 195 29)>: 40:298
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 14, col 11 to line 14, col 17 of module petersonWeakFairnessNew: 169
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 14, col 11 to line 14, col 13 of module petersonWeakFairnessNew: 149
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 15, col 11 to line 15, col 18 of module petersonWeakFairnessNew: 20
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 16, col 11 to line 16, col 22 of module petersonWeakFairnessNew: 20
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 17, col 11 to line 17, col 24 of module petersonWeakFairnessNew: 20
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 18, col 11 to line 18, col 24 of module petersonWeakFairnessNew: 20
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 22, col 11 to line 22, col 17 of module petersonWeakFairnessNew: 169
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 22, col 11 to line 22, col 13 of module petersonWeakFairnessNew: 149
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 23, col 11 to line 23, col 18 of module petersonWeakFairnessNew: 20
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 24, col 11 to line 24, col 22 of module petersonWeakFairnessNew: 20
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 25, col 11 to line 25, col 24 of module petersonWeakFairnessNew: 20
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 26, col 11 to line 26, col 24 of module petersonWeakFairnessNew: 20
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 30, col 11 to line 30, col 17 of module petersonWeakFairnessNew: 169
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 30, col 11 to line 30, col 13 of module petersonWeakFairnessNew: 149
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 31, col 11 to line 31, col 18 of module petersonWeakFairnessNew: 20
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 32, col 11 to line 32, col 22 of module petersonWeakFairnessNew: 20
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 33, col 11 to line 33, col 20 of module petersonWeakFairnessNew: 20
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 34, col 11 to line 34, col 24 of module petersonWeakFairnessNew: 20
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 38, col 11 to line 38, col 17 of module petersonWeakFairnessNew: 169
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 38, col 11 to line 38, col 13 of module petersonWeakFairnessNew: 149
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 39, col 11 to line 39, col 18 of module petersonWeakFairnessNew: 20
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 40, col 11 to line 40, col 19 of module petersonWeakFairnessNew: 20
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 41, col 11 to line 41, col 24 of module petersonWeakFairnessNew: 20
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 42, col 11 to line 42, col 24 of module petersonWeakFairnessNew: 20
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 45, col 11 to line 45, col 17 of module petersonWeakFairnessNew: 154
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 45, col 11 to line 45, col 13 of module petersonWeakFairnessNew: 149
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 46, col 11 to line 46, col 18 of module petersonWeakFairnessNew: 5
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 48, col 11 to line 48, col 18 of module petersonWeakFairnessNew: 25
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 48, col 11 to line 48, col 14 of module petersonWeakFairnessNew: 20
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 49, col 11 to line 49, col 19 of module petersonWeakFairnessNew: 14
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 49, col 11 to line 49, col 15 of module petersonWeakFairnessNew: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 51, col 11 to line 51, col 22 of module petersonWeakFairnessNew: 5
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 52, col 11 to line 52, col 24 of module petersonWeakFairnessNew: 5
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 53, col 11 to line 53, col 24 of module petersonWeakFairnessNew: 5
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 56, col 11 to line 56, col 17 of module petersonWeakFairnessNew: 164
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 56, col 11 to line 56, col 13 of module petersonWeakFairnessNew: 149
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 57, col 11 to line 57, col 18 of module petersonWeakFairnessNew: 15
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 58, col 11 to line 58, col 24 of module petersonWeakFairnessNew: 15
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 58, col 20 to line 58, col 24 of module petersonWeakFairnessNew: 20
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 59, col 11 to line 59, col 24 of module petersonWeakFairnessNew: 15
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 59, col 20 to line 59, col 24 of module petersonWeakFairnessNew: 20
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 60, col 11 to line 60, col 22 of module petersonWeakFairnessNew: 15
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 60, col 19 to line 60, col 22 of module petersonWeakFairnessNew: 20
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 61, col 11 to line 61, col 35 of module petersonWeakFairnessNew: 35
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 61, col 14 to line 61, col 34 of module petersonWeakFairnessNew: 20
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 61, col 14 to line 61, col 21 of module petersonWeakFairnessNew: 20
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 61, col 26 to line 61, col 34 of module petersonWeakFairnessNew: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 65, col 11 to line 65, col 17 of module petersonWeakFairnessNew: 166
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 65, col 11 to line 65, col 13 of module petersonWeakFairnessNew: 149
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 66, col 11 to line 66, col 18 of module petersonWeakFairnessNew: 17
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 67, col 11 to line 67, col 24 of module petersonWeakFairnessNew: 17
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 68, col 11 to line 68, col 24 of module petersonWeakFairnessNew: 17
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 69, col 11 to line 69, col 22 of module petersonWeakFairnessNew: 17
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 72, col 11 to line 72, col 17 of module petersonWeakFairnessNew: 165
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 72, col 11 to line 72, col 13 of module petersonWeakFairnessNew: 149
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 73, col 11 to line 73, col 18 of module petersonWeakFairnessNew: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 74, col 11 to line 74, col 20 of module petersonWeakFairnessNew: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 75, col 11 to line 75, col 24 of module petersonWeakFairnessNew: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 76, col 11 to line 76, col 22 of module petersonWeakFairnessNew: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 80, col 11 to line 80, col 17 of module petersonWeakFairnessNew: 165
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 80, col 11 to line 80, col 13 of module petersonWeakFairnessNew: 149
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 81, col 11 to line 81, col 18 of module petersonWeakFairnessNew: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 82, col 11 to line 82, col 24 of module petersonWeakFairnessNew: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 83, col 11 to line 83, col 24 of module petersonWeakFairnessNew: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 84, col 11 to line 84, col 22 of module petersonWeakFairnessNew: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 150, col 10 to line 150, col 46 of module petersonWeakFairnessNew: 149
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 195, col 20 to line 195, col 29 of module petersonWeakFairnessNew: 298
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<Next line 195, col 1 to line 195, col 4 of module petersonWeakFairnessNew (196 13 196 29)>: 87:286
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 88, col 11 to line 88, col 17 of module petersonWeakFairnessNew: 167
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 88, col 11 to line 88, col 13 of module petersonWeakFairnessNew: 145
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 89, col 11 to line 89, col 18 of module petersonWeakFairnessNew: 22
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 90, col 11 to line 90, col 22 of module petersonWeakFairnessNew: 22
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 91, col 11 to line 91, col 24 of module petersonWeakFairnessNew: 22
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 92, col 11 to line 92, col 24 of module petersonWeakFairnessNew: 22
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 94, col 11 to line 94, col 17 of module petersonWeakFairnessNew: 164
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 94, col 11 to line 94, col 13 of module petersonWeakFairnessNew: 145
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 95, col 11 to line 95, col 18 of module petersonWeakFairnessNew: 19
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 96, col 11 to line 96, col 22 of module petersonWeakFairnessNew: 19
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 97, col 11 to line 97, col 24 of module petersonWeakFairnessNew: 19
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 98, col 11 to line 98, col 24 of module petersonWeakFairnessNew: 19
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 100, col 11 to line 100, col 17 of module petersonWeakFairnessNew: 162
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 100, col 11 to line 100, col 13 of module petersonWeakFairnessNew: 145
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 101, col 11 to line 101, col 18 of module petersonWeakFairnessNew: 17
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 102, col 11 to line 102, col 22 of module petersonWeakFairnessNew: 17
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 103, col 11 to line 103, col 20 of module petersonWeakFairnessNew: 17
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 104, col 11 to line 104, col 24 of module petersonWeakFairnessNew: 17
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 106, col 11 to line 106, col 17 of module petersonWeakFairnessNew: 162
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 106, col 11 to line 106, col 13 of module petersonWeakFairnessNew: 145
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 107, col 11 to line 107, col 18 of module petersonWeakFairnessNew: 17
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 108, col 11 to line 108, col 19 of module petersonWeakFairnessNew: 17
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 109, col 11 to line 109, col 24 of module petersonWeakFairnessNew: 17
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 110, col 11 to line 110, col 24 of module petersonWeakFairnessNew: 17
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 113, col 11 to line 113, col 17 of module petersonWeakFairnessNew: 150
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 113, col 11 to line 113, col 13 of module petersonWeakFairnessNew: 145
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 114, col 11 to line 114, col 18 of module petersonWeakFairnessNew: 5
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 115, col 11 to line 115, col 18 of module petersonWeakFairnessNew: 26
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 115, col 11 to line 115, col 14 of module petersonWeakFairnessNew: 21
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 116, col 11 to line 116, col 19 of module petersonWeakFairnessNew: 14
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 116, col 11 to line 116, col 15 of module petersonWeakFairnessNew: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 117, col 11 to line 117, col 22 of module petersonWeakFairnessNew: 5
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 118, col 11 to line 118, col 24 of module petersonWeakFairnessNew: 5
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 119, col 11 to line 119, col 24 of module petersonWeakFairnessNew: 5
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 122, col 11 to line 122, col 17 of module petersonWeakFairnessNew: 157
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 122, col 11 to line 122, col 13 of module petersonWeakFairnessNew: 145
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 123, col 11 to line 123, col 18 of module petersonWeakFairnessNew: 12
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 124, col 11 to line 124, col 24 of module petersonWeakFairnessNew: 12
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 124, col 20 to line 124, col 24 of module petersonWeakFairnessNew: 21
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 125, col 11 to line 125, col 24 of module petersonWeakFairnessNew: 12
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 125, col 20 to line 125, col 24 of module petersonWeakFairnessNew: 21
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 126, col 11 to line 126, col 22 of module petersonWeakFairnessNew: 12
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 126, col 19 to line 126, col 22 of module petersonWeakFairnessNew: 21
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 127, col 11 to line 127, col 35 of module petersonWeakFairnessNew: 33
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 127, col 14 to line 127, col 34 of module petersonWeakFairnessNew: 21
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 127, col 14 to line 127, col 21 of module petersonWeakFairnessNew: 21
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 127, col 26 to line 127, col 34 of module petersonWeakFairnessNew: 9
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 129, col 11 to line 129, col 17 of module petersonWeakFairnessNew: 162
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 129, col 11 to line 129, col 13 of module petersonWeakFairnessNew: 145
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 130, col 11 to line 130, col 18 of module petersonWeakFairnessNew: 17
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 131, col 11 to line 131, col 24 of module petersonWeakFairnessNew: 17
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 132, col 11 to line 132, col 24 of module petersonWeakFairnessNew: 17
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 133, col 11 to line 133, col 22 of module petersonWeakFairnessNew: 17
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 136, col 11 to line 136, col 17 of module petersonWeakFairnessNew: 161
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 136, col 11 to line 136, col 13 of module petersonWeakFairnessNew: 145
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 137, col 11 to line 137, col 18 of module petersonWeakFairnessNew: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 138, col 11 to line 138, col 20 of module petersonWeakFairnessNew: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 139, col 11 to line 139, col 24 of module petersonWeakFairnessNew: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 140, col 11 to line 140, col 22 of module petersonWeakFairnessNew: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 142, col 11 to line 142, col 17 of module petersonWeakFairnessNew: 161
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 142, col 11 to line 142, col 13 of module petersonWeakFairnessNew: 145
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 143, col 11 to line 143, col 18 of module petersonWeakFairnessNew: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 144, col 11 to line 144, col 24 of module petersonWeakFairnessNew: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 145, col 11 to line 145, col 24 of module petersonWeakFairnessNew: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 146, col 11 to line 146, col 22 of module petersonWeakFairnessNew: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 151, col 10 to line 151, col 46 of module petersonWeakFairnessNew: 145
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 196, col 20 to line 196, col 29 of module petersonWeakFairnessNew: 286
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2202:0 @!@!@
+End of statistics.
+@!@!@ENDMSG 2202 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(19) at 2024-04-23 17:09:10: 509 states generated (11,412 s/min), 128 distinct states found (2,869 ds/min), 0 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2199:0 @!@!@
+509 states generated, 128 distinct states found, 0 states left on queue.
+@!@!@ENDMSG 2199 @!@!@
+@!@!@STARTMSG 2186:0 @!@!@
+Finished in 2733ms at (2024-04-23 17:09:10)
+@!@!@ENDMSG 2186 @!@!@
